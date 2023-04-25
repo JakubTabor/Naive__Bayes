@@ -5,3 +5,4 @@
 # Next from "sklearn.naive_bayes" import "GaussianNB" and train my classifier """classifier.fit(X_train, y_train)"""
 # I also use my classifier to prepare "y_pred" """y_pred = classifier.predict(X_test)"""
 # Now I can import "confusion_matrix" and put into my "y_test" and "y_pred" """cm = confusion_matrix(y_test, y_pred)"""
+# And get score """accuracy_score(y_test, y_pred)""", I look at visualizations of my results
